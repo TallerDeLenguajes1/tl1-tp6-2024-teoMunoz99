@@ -12,6 +12,7 @@
 para verificar que es un numero, usamos tryParse, es un metodo que transforma un string a int, devuelve un booleano 
 para saber si se transformo o no*/
 
+/*
 string numIngresado;//en esta variable guardo lo ingresado por el usuario, sea texto o numeros
 int numero = 0;//acá guardo lo ingresado pero transformado si o si a int
 
@@ -29,3 +30,10 @@ string numeroInvertido = new string(numero.ToString().Reverse().ToArray());
 
 Console.WriteLine($"Ingresado: {numero}");
 Console.WriteLine($"Invertido: {numeroInvertido}");
+*/
+
+/*Ejercicio 2. Ingrese al branch CalculadoraV1 y construya un programa que sea una
+calculadora que permita al usuario realizar las 4 operaciones básicas (Sumar, Restar,
+Multiplicar y Dividir) a partir de un menú para seleccionar la opción a elegir y que luego
+pida dos números y que devuelva el resultado de la operación seleccionada. Además
+una vez que termine de realizar la operación le pregunte si desea realizar otro cálculo.*/
