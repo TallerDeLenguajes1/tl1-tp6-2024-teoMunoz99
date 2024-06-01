@@ -37,3 +37,63 @@ calculadora que permita al usuario realizar las 4 operaciones básicas (Sumar, R
 Multiplicar y Dividir) a partir de un menú para seleccionar la opción a elegir y que luego
 pida dos números y que devuelva el resultado de la operación seleccionada. Además
 una vez que termine de realizar la operación le pregunte si desea realizar otro cálculo.*/
+
+//funcion para mostrar menu
+/*static void menu()
+{
+    Console.WriteLine("1- Sumar");
+    Console.WriteLine("2- Restar");
+    Console.WriteLine("3- Multiplicar");
+    Console.WriteLine("4- Dividir");
+}
+
+int opcion;
+float num1, num2;
+
+
+do
+{
+    Console.WriteLine("Elija una operacion del menu");
+    Console.WriteLine("");
+    menu();
+    string opcionIngresada = Console.ReadLine();
+    Console.WriteLine("Ingrese el primer numero: ");
+    string numIngresado1 = Console.ReadLine();
+    Console.WriteLine("Ingrese el segundo numero: ");
+    string numIngresado2 = Console.ReadLine();
+    if (float.TryParse(numIngresado1, out num1) && float.TryParse(numIngresado2, out num2) && int.TryParse(opcionIngresada, out opcion) && opcion >= 0 && opcion <= 4)
+    {
+        switch (opcion)
+        {
+            case 1://suma
+                Console.WriteLine($">>SUMA<< Resultado = {num1 + num2}");
+                break;
+            case 2://resta
+                Console.WriteLine($">>RESTA<< Resultado = {num1 - num2}");
+                break;
+            case 3://multiplicacion
+                Console.WriteLine($">>MULTIPLICACION<< Resultado = {num1 * num2}");
+                break;
+            case 4://division
+                if (num2 != 0)
+                {
+                    Console.WriteLine($">>DIVISION<< Resultado = {num1 / num2}");
+                }
+                else
+                {
+                    Console.WriteLine("No se puede dividir entre 0");
+                }
+                break;
+            default:
+                Console.WriteLine("Opcion incorrecta");
+                break;
+        }
+    }else{
+        Console.WriteLine("La opcion o los datos ingresados no son validos");
+    }
+    Console.WriteLine("Desea realizar otra operacion? 0-SI / 1-NO");
+    opcionIngresada = Console.ReadLine();
+    int.TryParse(opcionIngresada, out opcion);
+} while (opcion == 0);
+*/
+
